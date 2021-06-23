@@ -32,7 +32,6 @@ CREATE QUERY GSQL_jaccard_similarity_batch (
   FILE f (file_path);
 
   Start = {s_type.*};
-  Start = SELECT s FROM Start:s;
 
   // store number of features for each source vertex
   Start = SELECT s
